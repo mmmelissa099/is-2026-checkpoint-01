@@ -2,7 +2,7 @@
 .git
 .gitignore
 
-# Entorno y Secretos
+# Entorno y secretos
 .env
 .env.example
 
@@ -16,9 +16,14 @@ venv/
 env/
 .pytest_cache/
 
-# Docker
-Dockerfile
-.dockerignore
+# Logs
+*.log
+
+# Editor
+.vscode/
+.idea/
 
 # Otros
 .DS_Store
+*.swp
+*.tmp
