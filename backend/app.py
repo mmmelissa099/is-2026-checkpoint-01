@@ -2,8 +2,10 @@ from flask import Flask, jsonify
 import os
 import psycopg2
 from psycopg2.extras import RealDictCursor
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 #Funcion para conectarse a la Base de Datos
 def get_db_connection():
