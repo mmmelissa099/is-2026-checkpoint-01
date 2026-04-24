@@ -1,10 +1,8 @@
 FROM python:3.12-slim
 
-WORKDIR /app
-
-COPY html/ ./html/
-
 WORKDIR /app/html
+
+COPY html/ .
 
 EXPOSE 8080
 

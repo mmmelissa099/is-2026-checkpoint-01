@@ -16,9 +16,14 @@ venv/
 env/
 .pytest_cache/
 
-# Docker
-Dockerfile
-.dockerignore
+# Logs
+*.log
+
+# Editors
+.vscode/
+.idea/
 
 # Otros
 .DS_Store
+*.swp
+*.tmp
