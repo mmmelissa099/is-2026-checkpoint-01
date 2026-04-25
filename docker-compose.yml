@@ -52,7 +52,7 @@ services:
           memory: 512M
 
   portainer:
-    image: portainer/portainer-ce:latest
+    image: portainer/portainer-ce:2.39.1
     ports:
       - "${PORTAINER_PORT}:9000"
     volumes:
