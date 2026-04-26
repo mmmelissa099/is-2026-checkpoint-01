@@ -25,23 +25,23 @@ CREATE TABLE member_features (
 );
 
 INSERT INTO estados (nombre_estado) VALUES
-('activo'),
-('inactivo'),
-('en_proceso'),
-('pendiente');
+('Activo'),
+('Inactivo'),
+('En Proceso'),
+('Pendiente');
 
 INSERT INTO integrantes (legajo, nombre, apellido) VALUES
 ('33535', 'Melissa', 'Braunstein'),
 ('33514', 'Pilar', 'Wagner'),
-('33211', 'Santiago', 'Gonzales D''Angelo'),
+('33211', 'Santiago', 'Gonzalez D''Angelo'),
 ('33243', 'Maria Pia', 'Porzio'),
 ('32201', 'Leandro Andres', 'Noval');
 
 INSERT INTO member_features (legajo, feature, servicio, id_estado) VALUES
 ('33535', 'Feature 01', 'Coordinador', 1),
-('33514', 'Feature 02', 'Frontend', 1),
-('33211', 'Feature 03', 'Backend', 1),
-('33243', 'Feature 04', 'Database', 3),
+('33514', 'Feature 02', 'Frontend', 2),
+('33211', 'Feature 03', 'Backend', 3),
+('33243', 'Feature 04', 'Database', 4),
 ('32201', 'Feature 05', 'Portainer', 1);
 
 CREATE OR REPLACE VIEW members AS
