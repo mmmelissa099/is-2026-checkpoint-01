@@ -22,3 +22,22 @@
 - **Backend**: http://localhost:5000
 - **Portainer**: http://localhost:9000
 
+## Documentación
+
+- [Feature 01 - Infraestructura](docs/feature-01.md)  
+- [Feature 02 - Frontend](docs/feature-02.md)  
+- [Feature 03 - Backend](docs/feature-03.md)  
+- [Feature 04 - Database](docs/feature-04.md)  
+- [Feature 05 - Portainer](docs/feature-05.md)  
+
+### Evidencias
+
+![Paso1](./docs/img/portainerExample1.png)
+
+![Paso2](./docs/img/portainerExample2.png)
+
+![Paso3](./docs/img/portainerExample3.png)
+
+![Paso4](./docs/img/portainerExample4.png)
+
+![Paso5](./docs/img/portainerExample5.png)
