@@ -27,6 +27,8 @@ El rol de coordinación incluyó:
 │
 ├── database/
 │
+├── portainer/
+│
 ├── docker-compose.yml
 ├── .env
 ├── .env.example
@@ -39,7 +41,6 @@ El rol de coordinación incluyó:
     ├── feature-03.md
     ├── feature-04.md
     └── feature-05.md
-
 ```
 
 Esta estructura permite una clara separación de responsabilidades y facilita la escalabilidad del proyecto.
