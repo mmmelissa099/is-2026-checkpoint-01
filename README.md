@@ -19,7 +19,10 @@
 
 ## Servicios
 - **Frontend**: http://localhost:8080
-- **Backend**: http://localhost:5000
+- **Backend API**:
+  - Health: http://localhost:5000/api/health
+  - Info: http://localhost:5000/api/info
+  - Team: http://localhost:5000/api/team
 - **Portainer**: http://localhost:9000
 
 ## Documentación
