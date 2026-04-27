@@ -59,15 +59,3 @@ La modificación de 'latest' a '2.39.1' se incorporó específicamente para alin
 4. Entrar al entorno local: **Local** (Docker environment).
 5. Ir a **Containers** y abrir algún contenedor, ejemplo el contenedor del backend.
 6. Entrar en la sección **Stats** con un `i` para ver consumo en tiempo real (CPU, memoria, red e I/O).
-
-### Evidencias
-
-![Paso1](./docs/img/portainerExample1.png)
-
-![Paso2](./docs/img/portainerExample2.png)
-
-![Paso3](./docs/img/portainerExample3.png)
-
-![Paso4](./docs/img/portainerExample4.png)
-
-![Paso5](./docs/img/portainerExample5.png)
