@@ -30,6 +30,19 @@
 - [Feature 04 - Database](docs/feature-04.md)  
 - [Feature 05 - Portainer](docs/feature-05.md)  
 
+
+## Feature 05
+
+### Paso a paso
+
+1. Levantar servicios con: docker compose up -d --build
+2. Abrir Portainer en el navegador: `http://localhost:9000`   
+3. Primer ingreso: crear usuario administrador priorizando credenciales seguras (si ya existe, iniciar sesión con las credenciales conocidas).
+4. Entrar al entorno local: **Local** (Docker environment).
+5. Ir a **Containers** y abrir algún contenedor, ejemplo el contenedor del backend.
+6. Entrar en la sección **Stats** con un `i` para ver consumo en tiempo real (CPU, memoria, red e I/O).
+
+
 ### Evidencias
 
 ![Paso1](./docs/img/portainerExample1.png)
