@@ -17,6 +17,7 @@ El rol de coordinación incluyó:
 
 # Estructura del Proyecto
 
+```text
 /
 ├── backend/
 │   ├── Dockerfile
@@ -40,6 +41,8 @@ El rol de coordinación incluyó:
     ├── feature-03.md
     ├── feature-04.md
     └── feature-05.md
+
+```
 
 Esta estructura permite una clara separación de responsabilidades y facilita la escalabilidad del proyecto.
 
