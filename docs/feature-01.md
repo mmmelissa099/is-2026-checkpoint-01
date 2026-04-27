@@ -15,8 +15,6 @@ El rol de coordinación incluyó:
 
 ## Estructura Inicial del proyecto
 
-# Estructura del Proyecto
-
 ```text
 /
 ├── backend/
