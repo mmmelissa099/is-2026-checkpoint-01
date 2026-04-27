@@ -17,26 +17,18 @@ fetch(API_URL)
         data.forEach(miembro => {
             const fila = document.createElement("tr");
 
-            let claseEstado = "";
-            let textoEstado = "";
+            const estadoNormalizado = miembro.estado
+                .toLowerCase()
+                .replace(/\s+/g, "_");
 
-            switch (miembro.estado) {
-                case "activo":
-                    claseEstado = "badge badge-ok";
-                    textoEstado = "Activo";
-                    break;
-                case "en_proceso":
-                    claseEstado = "badge badge-proceso";
-                    textoEstado = "En proceso";
-                    break;
-                case "pendiente":
-                    claseEstado = "badge badge-pendiente";
-                    textoEstado = "Pendiente";
-                    break;
-                default:
-                    claseEstado = "badge badge-error";
-                    textoEstado = "Inactivo";
-            }
+            const estadosClases = {
+                activo: "badge badge-ok",
+                en_proceso: "badge badge-proceso",
+                pendiente: "badge badge-pendiente",
+                inactivo: "badge badge-error"
+            };
+
+            const claseEstado = estadosClases[estadoNormalizado] || "badge badge-default";
 
             fila.innerHTML = `
                 <td>${miembro.nombre}</td>
@@ -44,7 +36,7 @@ fetch(API_URL)
                 <td>${miembro.legajo}</td>
                 <td>${miembro.feature}</td>
                 <td>${miembro.servicio}</td>
-                <td><span class="${claseEstado}">${textoEstado}</span></td>
+                <td><span class="${claseEstado}">${miembro.estado}</span></td>
             `;
 
             tabla.appendChild(fila);
